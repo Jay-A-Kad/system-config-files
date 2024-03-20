@@ -1,0 +1,127 @@
+"vim config files
+ 43 "vim config files
+ 42
+ 41 "---------styling config--------------
+ 40 set cursorline
+ 39 :highlight CursorLine cterm=NONE ctermbg=black ctermfg=white
+ 38 "bg colour
+ 37 colorscheme industry
+ 36
+ 35
+ 34 "highlight on
+ 33 syntax on
+ 32
+ 31 "default fonts
+ 30 set guifont=Monaco:h12
+ 29
+ 28 "set termguicolors
+ 27
+ 26 "-----------------functional code below---------------------
+ 25 set number relativenumber
+ 24
+ 23 "smart casing
+ 22 set ignorecase
+ 21 set smartcase
+ 20
+ 19 "enable mouse support
+ 18 set mouse=a
+ 17
+ 16 "highlight search
+ 15 set hlsearch
+ 14 set incsearch
+ 13
+ 12 "show ruler
+ 11 set ruler
+ 10 set showcmd
+  9
+  8 "disable compatibility with vim
+  7 set nocompatible
+  6
+  5 "enable filetype detection
+  4 filetype on
+  3
+  2 "indent on
+  1 filetype indent on
+45
+  1 "enable autocomplete menu after tab pressing
+  2 set wildmenu
+  3
+  4 "make wildmenu behave like similar bash
+set wildmode=list:longest
+  1
+  2 "tabs and space confg
+  3 set shiftwidth=4
+  4 set tabstop=4
+  5 set expandtab
+  6
+  7 "_-------key-maps----------
+  8
+  9 inoremap jj <esc>
+ 10
+ 11 " STATUS LINE ------------------------------------------------------------ {{{
+ 12
+ 13 " Clear status line when vimrc is reloaded.
+ 14 set statusline=
+ 15
+ 16 " Status line left side.
+ 17 set statusline+=\ %F\ %M\ %Y\ %R
+ 18
+ 19 " Use a divider to separate the left side from the right side.
+ 20 set statusline+=%=
+ 21
+ 22 " Status line right side.
+ 23 set statusline+=\ ascii:\ %b\ hex:\ 0x%B\ row:\ %l\ col:\ %c\ percent:\ %p%%
+ 24
+ 25 " Show the status on the second to last line.
+ 26 set laststatus=2
+ 27
+ 28 " }}}
+ 29
+ 30 "indentation using spaces
+ 31 set autoindent
+ 32
+ 33 "show matching pairs of {} , ()
+ 34 set showmatch
+ 35
+ 36 "set shell
+ 37 set shell=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+
+set wildmode=list:longest
+  1
+  2 "tabs and space confg
+  3 set shiftwidth=4
+  4 set tabstop=4
+  5 set expandtab
+  6
+  7 "_-------key-maps----------
+  8
+  9 inoremap jj <esc>
+ 10
+ 11 " STATUS LINE ------------------------------------------------------------ {{{
+ 12
+ 13 " Clear status line when vimrc is reloaded.
+ 14 set statusline=
+ 15
+ 16 " Status line left side.
+ 17 set statusline+=\ %F\ %M\ %Y\ %R
+ 18
+ 19 " Use a divider to separate the left side from the right side.
+ 20 set statusline+=%=
+ 21
+ 22 " Status line right side.
+ 23 set statusline+=\ ascii:\ %b\ hex:\ 0x%B\ row:\ %l\ col:\ %c\ percent:\ %p%%
+ 24
+ 25 " Show the status on the second to last line.
+ 26 set laststatus=2
+ 27
+ 28 " }}}
+ 29
+ 30 "indentation using spaces
+ 31 set autoindent
+ 32
+ 33 "show matching pairs of {} , ()
+ 34 set showmatch
+ 35
+ 36 "set shell
+ 37 set shell=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
